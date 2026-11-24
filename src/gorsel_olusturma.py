@@ -66,7 +66,7 @@ def ppm_gorsel_olustur(): #alınan değerler ile görseli olusturacak asıl fonk
 
         print(f"\n'{dosya_adi}' başarıyla oluşturuldu!")
         sayac+=1
-        devam = input("\nBaşka bir görsel oluşturmak ister msiniz? (e/h): ").strip().lower()
+        devam = input("\nBaşka bir görsel oluşturmak ister misiniz? (e/h): ").strip().lower()
         if devam not in ("e", "evet"): #kullanıcının devam etmek isteyip istememesine göre kodu bitirir.
             print("Program sonlandırılıyor.")
             break
